@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salvador Lugo Erick PWA</title>
+    <link rel="stylesheet" href="Style.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="shortcut icon" type="image/png" href="img/favicon-16.png">
+    <meta name="theme-color" content="#FB314E">
+    <meta name="MobileOptimized" content="width">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="apple-touch-icon" href="img/favicon.png">
+    <link rel="apple-touch-startup-image" href="img/favicon.png">
+    <link rel="manifest" href="manifest.json">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <header id="main-header">
+        <div class="container">
+            <div id="logo">
+                <h1>PWA - ERICK SALVADOR LUGO</h1>
+            </div>
+            <div id="menu">
+                <button id="menu-toggle" aria-label="Abrir menú">
+                    <div class="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </button>
+                <ul>
+                    <li>
+                        <a href="#main-header">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="#services">Servicios</a>
+                    </li>
+                    <li>
+                        <a href="#videos">Videos</a>
+                    </li>
+                    <li>
+                        <a href="#comments">Comentarios</a>
+                    </li>
+                    <li>
+                        <a href="#footer">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="clearfix"></div>
+
+    <div class="slider">
+        <div class="container">
+            <h2>Aplicaciones Web Progresivas</h2>
+        </div>
+    </div>
+
+    <div id="services">
+        <div class="container">
+            <h2 class="subheader">Servicios</h2>
+
+            <div class="service">
+                <img src="img/joystick-alt.png" />
+                <h3>Videojuegos</h3>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum, atque? Laudantium ut aliquam illum. Distinctio officia expedita impedit debitis. Iure at animi velit! Excepturi corrupti eligendi ut eius fugit temporibus?
+                </p>
+            </div>
+            <div class="service">
+                <img src="img/pencil-circle.png" />
+                <h3>Dibujo</h3>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum, atque? Laudantium ut aliquam illum. Distinctio officia expedita impedit debitis. Iure at animi velit! Excepturi corrupti eligendi ut eius fugit temporibus?
+                </p>
+            </div>
+            <div class="service">
+                <img src="img/book-open.png" />
+                <h3>Escritura</h3>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum, atque? Laudantium ut aliquam illum. Distinctio officia expedita impedit debitis. Iure at animi velit! Excepturi corrupti eligendi ut eius fugit temporibus?
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+    
+    <div id="videos">
+        <div class="container">
+            <h2 class="subheader">Videos</h2>
+            <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/CqFVcrsdVco?si=rP8oC_4YzIHxF-zM&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum nam quo quis magnam cupiditate labore voluptas porro distinctio quia corrupti, quos eum voluptatum amet et doloribus nobis eligendi sint non?
+                </p>
+            </div>
+            <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/bDZFL3DcKdo?si=_A4-duOWdUxWofmv&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum nam quo quis magnam cupiditate labore voluptas porro distinctio quia corrupti, quos eum voluptatum amet et doloribus nobis eligendi sint non?
+                </p>
+            </div>
+            <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/0Fghz93zCdY?si=y8Tm5TKgv-NseGzw&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum nam quo quis magnam cupiditate labore voluptas porro distinctio quia corrupti, quos eum voluptatum amet et doloribus nobis eligendi sint non?
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+    
+    <!-- Sección de Comentarios -->
+    <div id="comments">
+        <div class="container">
+            <h2 class="subheader">Comentarios</h2>
+            <button id="btn-add-comment" class="btn-primary">+ Agregar Comentario</button>
+            <div id="comments-list" class="comments-list">
+                <!-- Los comentarios se cargarán aquí dinámicamente -->
+            </div>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+
+    <!-- Modal para agregar/editar comentario -->
+    <div id="modal-comment" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 id="modal-title">Agregar Comentario</h2>
+            <form id="form-comment">
+                <div class="form-group">
+                    <label for="comment-name">Nombre:</label>
+                    <input type="text" id="comment-name" required>
+                </div>
+                <div class="form-group">
+                    <label for="comment-text">Comentario:</label>
+                    <textarea id="comment-text" rows="5" required></textarea>
+                </div>
+                <div class="form-actions">
+                    <button type="submit" id="btn-save-comment" class="btn-primary">Guardar</button>
+                    <button type="button" id="btn-cancel" class="btn-secondary">Cancelar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <footer id="footer">
+        <div class="container">
+            <h2 class="subheader">Contacto</h2>
+            <p>Enviame un mensaje en mis redes sociales :D</p>
+            <ul id="networks">
+                <li>
+                    <a href="https://web.facebook.com/erick.salvadorlugo" target="_blank" rel="noopener noreferrer">
+                        <img src="img/Facebook.png" />
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/erick69_waos/" target="_blank" rel="noopener noreferrer">
+                        <img src="img/Instagram1.png" />
+                    </a>
+                </li>
+                <li>
+                    <a href="https://gamejolt.com/@TheOvalCharmer" target="_blank" rel="noopener noreferrer">
+                        <img src="img/Pinterest1.png" />
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/@erksl69" target="_blank" rel="noopener noreferrer">
+                        <img src="img/Youtube.png" />
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="clearfix"></div>
+    </footer>
+
+    <!-- Firebase Scripts - Versión Compat para compatibilidad total -->
+    <script src="https://www.gstatic.com/firebasejs/10.13.2/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.13.2/firebase-database-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.13.2/firebase-messaging-compat.js"></script>
+    <script src="main.js"></script>
+    <script src="comments.js"></script>
+</body>
+
+</html>

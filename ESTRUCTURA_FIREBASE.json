@@ -1,0 +1,30 @@
+// ESTRUCTURA ESPERADA DE DATOS EN FIREBASE (para referencia)
+
+{
+  "comments": {
+    "-NxxxxxxxxxxxxxxxxxxxA": {
+      "name": "Juan Pérez",
+      "text": "Excelente motivación, ¡gracias por compartir tus conocimientos!",
+      "date": "27/11/2025 14:30:45"
+    },
+    "-NxxxxxxxxxxxxxxxxxxxB": {
+      "name": "María García",
+      "text": "La disciplina es realmente importante. Muy buen contenido.",
+      "date": "26/11/2025 10:15:20"
+    },
+    "-NxxxxxxxxxxxxxxxxxxxC": {
+      "name": "Carlos López",
+      "text": "Los videos son muy inspiradores. ¡Sigue adelante!",
+      "date": "25/11/2025 16:45:30"
+    }
+  }
+}
+
+/* 
+NOTA: 
+- Cada comentario tiene un ID único generado automáticamente por Firebase
+- El campo "name" contiene el nombre del usuario
+- El campo "text" contiene el contenido del comentario
+- El campo "date" contiene la fecha y hora del comentario
+- Los comentarios se muestran en orden inverso (más recientes primero)
+*/
